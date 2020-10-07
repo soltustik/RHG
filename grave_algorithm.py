@@ -17,7 +17,7 @@ parser.add_argument('--nmax', default=20000, type=int, help='Vocabulary size for
 parser.add_argument('--reg', default=0.05, type=float, help='Regularization parameter for sinkhorn')
 args, unknown = parser.parse_known_args()
 
-def objective(X, Y, R, n=5000):
+def objective(X, Y, R, n=1000):
     Xn, Yn = X[:n], Y[:n]
     C = -np.dot(np.dot(Xn, R), Yn.T)
     P = ot.sinkhorn(np.ones(n), np.ones(n), C, 0.025, stopThr=1e-3)
