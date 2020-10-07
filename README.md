@@ -19,9 +19,9 @@ pip install POT
 
 Note that for easier access the module is name ot instead of pot.
 
-# Running the tests
+## Running the tests
 
-To create and evaluate word vectors from RHG for 3446 words 
+To create and evaluate word vectors from RHG. 
 
 ```
 mkdir embeddings
