@@ -9,9 +9,13 @@ You can install them via:
 pip install gensim argparse networkit networkx torch sklearn
 ```
 It also requires Python Optimal Transport `ot`. `cython` and `numpy` need to be installed prior to installing POT. This can be done easily with
-`pip install numpy cython`
+```
+pip install numpy cython
+```
 
-then `pip install POT`
+```
+pip install POT
+```
 
 Note that for easier access the module is name ot instead of pot.
 
