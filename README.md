@@ -3,11 +3,17 @@ Construct word embeddings from the Random Hyperbolic Graph
 
 ### Prerequisites
 
-Code is written in Python 3.6. It requires the following Python modules: `numpy`, `gensim`, `argparse`, `ot`, `networkit`, `networkx`, `torch`, `sklearn`. 
+Code is written in Python 3.6. It requires the following Python modules: `gensim`, `argparse`, `networkit`, `networkx`, `torch`, `sklearn`. 
+You can install them via:
+```
+pip install gensim argparse networkit networkx torch sklearn
+```
+It also requires Python Optimal Transport `ot`. `cython` and `numpy` need to be installed prior to installing POT. This can be done easily with
+`pip install numpy cython`
 
-```
-Give examples
-```
+then `pip install POT`
+
+Note that for easier access the module is name ot instead of pot.
 
 ### Installing
 
