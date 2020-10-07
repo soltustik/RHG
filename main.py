@@ -33,7 +33,7 @@ from IPython import get_ipython
 
 ## Import PMI matrix and build SSPMI graph from it
 
-pmi_matrix_loc = "pmis/text8.w2.t200/pmi"
+pmi_matrix_loc = "pmis/text8.w2.t500/pmi"
 vocab_loc = pmi_matrix_loc + ".words.vocab"
 
 explicit = Squashed(pmi_matrix_loc, normalize=False, neg=5)
