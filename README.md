@@ -1,11 +1,9 @@
 # RHG
 Construct word embeddings from the Random Hyperbolic Graph
 
-Code is written in Python 3.6. It requires the following Python modules: numpy, gensim, argparse, ot, networkit, networkx, torch, sklearn. 
-
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Code is written in Python 3.6. It requires the following Python modules: `numpy`, `gensim`, `argparse`, `ot`, `networkit`, `networkx`, `torch`, `sklearn`. 
 
 ```
 Give examples
